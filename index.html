@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Yield Predictor</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crop Recommender</h1>
+        <form id="cropForm">
+            <div class="input-group">
+                <label for="state">Location</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+        
+
+            <div class="input-group">
+                <label for="season">Season</label>
+                <input type="text" id="season" name="season" required>
+            </div>
+
+            <div class="input-group">
+                <label for="Nitrogen measure">Nitrogen measure in soil(kg/ha)</label>
+                <input type="text" id="Nitrogen measure" name="Nitrogen measure" required>
+            </div>
+
+            
+            <div class="input-group">
+                <label for="Potassium Measure">Potassium Measure in soil(kg/ha)</label>
+                <input type="text" id="Potassium Measure" name="Potassium Measure" required>
+            </div>
+
+            
+            <div class="input-group">
+                <label for="Phosphorous">Phosphorous measure in soil(kg/ha)</label>
+                <input type="text" id="Phosphorous measure" name="Phosphorous measure" required>
+            </div>
+
+            
+            <div class="input-group">
+                <label for="Temparature">Temparature(°C)</label>
+                <input type="text" id="Temparature" name="Temparature" required>
+            </div>
+
+            <div class="input-group">
+                <label for="Humidity">Humidity(%)</label>
+                <input type="text" id="Humidity" name="Humidity" required>
+            </div>
+
+            <div class="input-group">
+                <label for="pH">pH</label>
+                <input type="text" id="pH" name="pH" required>
+            </div>
+
+            
+
+          
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
