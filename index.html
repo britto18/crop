@@ -31,28 +31,13 @@
             <h1>Welcome!</h1>
             <h2>Forecasting Climate And Optimization of Resources for Sustainable Agriculture</h2>
             <div class="product-grid">
-                <button class="loadContentBtn" data-page="croprecommender.html">Crop Recommender</button>
+                <button class="loadContentBtn" data-page="croprecommender.html"><a href="croprecommender.html">Crop Recommender</a></button>
                 <button class="loadContentBtn" data-page="integrated_page2.html">Risk Predictor</button>
                 <button class="loadContentBtn" data-page="integrated_page3.html">Precision Farming</button>
-                <button class="loadContentBtn" data-page="clustering.html">Land Suitability Analysis</button>
+                <button class="loadContentBtn" data-page="clustering.html"><a href="clustering.html">Land Suitability Analysis</a></button>
                 <div id="integratedContent" class="hidden"></div>
             </div>
         </div>
     </section>
-    <script>
-        // Function to handle button clicks
-        function loadIntegratedPage(pageUrl) {
-            // Navigate to the integrated page
-            window.location.href = pageUrl;
-        }
-
-        // Add click event listeners to all buttons
-        document.querySelectorAll('.loadContentBtn').forEach(button => {
-            button.addEventListener('click', function() {
-                const pageUrl = this.getAttribute('data-page');
-                loadIntegratedPage(pageUrl);
-            });
-        });
-    </script>
 </body>
 </html>
